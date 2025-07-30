@@ -2,12 +2,30 @@ let listaNombres = [];
 
 function agregarAmigo() {
     let nombre = document.getElementById("amigo").value;
-    console.log(nombre)
     if (nombre === "") {
-        alert("Debes de proporcionar un nombre válido");
+        alert("Por favor, inserte un nombre.");
     }else{
         listaNombres.push(nombre);
-        console.log(listaNombres);
+        limpiarCaja()
+        actualizarLista()
+
     }
 
 }
+
+function limpiarCaja(){
+    let valorCaja = document.querySelector('#amigo');
+    valorCaja.value = '';
+ }
+ 
+ function actualizarLista() {
+    let lista = document.getElementById("listaAmigos");
+    lista.innerHTML = "";
+    for (let index = 0; index < listaNombres.length; index++) {
+        const li = document.createElement("li");
+        li.textContent = listaNombres[index];
+        lista.appendChild(li);
+        
+    }
+    
+ }
