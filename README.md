@@ -24,6 +24,14 @@ Este es un pequeño proyecto web que permite organizar un sorteo de amigo secret
 3. Una vez que tengas una lista, haz clic en **"Sortear"**.
 4. El nombre sorteado aparecerá debajo de la lista.
 
+## 🌐 Ver Demo
+
+Puedes probar el juego en línea aquí:
+
+
+[![Ver Demo](https://img.shields.io/badge/🔴%20Ver%20Demo%20en%20vivo-Click%20aquí-blue?style=for-the-badge)]([https://camilasierraO.github.io/juego-amigo-secreto/](https://camilasierrao.github.io/juego-amigo-secreto/))
+
+
 ## 📁 Estructura del proyecto
 
 /juego-amigo-secreto
