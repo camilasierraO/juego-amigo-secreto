@@ -2,6 +2,8 @@
 
 Este es un pequeño proyecto web que permite organizar un sorteo de amigo secreto, donde puedes ingresar nombres y seleccionar aleatoriamente uno de ellos.
 
+📌 Este proyecto forma parte de un **Challenge propuesto por Alura Latam** como parte del programa **Oracle Next Education (ONE)**. A través de este reto, se busca fortalecer habilidades en lógica de programación, manipulación del DOM y desarrollo de interfaces web interactivas con HTML, CSS y JavaScript.
+
 ## ✨ Funcionalidades
 
 - ✅ Agregar nombres a una lista.
